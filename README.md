@@ -355,13 +355,9 @@ int main() {
 #include <stdio.h>
 
 int main() {
-    int i, j, k, space;
+    int i, j, k;
 
     for (i = 0; i <= 7; i++) {
-        for (space = 0; space < 7 - i; space++) {
-            printf(" ");
-        }
-
         for (j = 7 - i; j <= 7; j++) {
             printf("%d ", j);
         }
@@ -378,7 +374,8 @@ int main() {
 
 # Output:
 
-<img width="427" height="299" alt="image" src="https://github.com/user-attachments/assets/ab37be45-1524-4301-b06b-1bc3630f925a" />
+<img width="401" height="354" alt="image" src="https://github.com/user-attachments/assets/221b3fad-0176-4eb9-8dfa-55119df70e7c" />
+
 
 # Result:
   Thus, the program was implemented and executed successfully, and the required output was obtained.
